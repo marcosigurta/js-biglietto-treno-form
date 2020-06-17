@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main id="main">
+        <div id="passenger-data-form">
+            <label for="name-form">Name:</label>
+            <input value="" id="name-form" type="text" placeholder="Insert your Name">
+            <label for="surname">Surname:</label>
+            <input value="" id="surname-form" type="text" placeholder="Insert your Surname">
+            <label for="km">Insert the distance you want to travel in 'km':</label>
+            <input value="" id="km" type="number" placeholder="km">
+            <label for="categories">Categories</label>
+            <select  value="" name="" id="categories">
+                <option value="adult">18+</option>
+                <option value="underage">Underage</option>
+                <option value="over65">65+</option>
+            </select>
+            <button id="create-ticket">Create Ticket</button>
+            <button id="cancel-ticket">Cancel Ticket</button>
+        </div>
+        <div id="ticket">
+            <div class="orange">
+                <h1>Ticket</h1>
+            </div>
+            <div id="passenger-data">
+                <div>
+                    <h3>Name</h3>
+                    <p id="name"></p>
+                </div>
+                <div>
+                    <h3>Train code</h3>
+                    <p id="traincode"></p>
+                </div>
+                <div>
+                    <h3>Carriage N°</h3>
+                    <p id="carriageNumber"></p>
+                </div>
+                <div>
+                    <h3>Age</h3>
+                    <p id="age"></p>
+                </div>
+            </div>
+            <div class="orange">
+                <h2 id="ticketDetails">ciao</h2>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script> 
+</body>
+
+</html>
