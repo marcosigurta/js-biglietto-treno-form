@@ -36,6 +36,8 @@ cancelTicket.addEventListener("click", function () {
     document.getElementById("traincode").innerHTML = "";
     document.getElementById("carriageNumber").innerHTML = "";
     document.getElementById("age").innerHTML = "";
+    document.getElementById("categories").value = "adult";
+
     document.getElementById("ticketDetails").innerHTML =
         "Ticket Price: " + price.toFixed(2) + " €";
 });
